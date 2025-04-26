@@ -1,0 +1,30 @@
+Setup:Vertex AI
+Specification: a2-ultragpu-8g (Nvidia A100)
+Operating System: Linux
+Region: us-central1
+
+Setup:Compute Engine
+Specification: g2-standard-8 (Nvidia L4 x1)
+Operating System: Debian11
+Region: us-central1
+
+Software:
+cuda 11.8
+python 3.10
+You may refer to the requirements.txt for more detail.
+
+Workflow (Vertex AI)
+1. Create bucket for containing dataset
+2. Select GPU and machine type according to the above
+3. Set training parameter
+4. Conduct testing on the notebook "finetune_vertex_ai.ipynb" in the source folder on VertexAI platform for fine-tuning.
+
+Workflow (Compute Engine)
+1. Create instance on Compute Engine
+2. Install gcloud cli 
+   You may refer https://cloud.google.com/sdk/docs/install for more detail.
+3. Set up SSH 
+   You may refer https://cloud.google.com/sdk/docs/install for more detail.
+4. Conduct testing on the notebook "finetune_compute_engine.ipynb" in the source folder on VSCode for fine-tuning.
+
+You can also refer to the demo video for the fine-tuning procedure.
