@@ -20,7 +20,7 @@ Workflow (Vertex AI)
 4. Conduct testing on the notebook "finetune_vertex_ai.ipynb" in the source folder on VertexAI platform for fine-tuning.
 
 Workflow (Compute Engine)
-1. Create instance on Compute Engine
+1. Create instance on Compute Engine according to above specification.
 2. Install gcloud cli 
    You may refer https://cloud.google.com/sdk/docs/install for more detail.
 3. Set up SSH 
