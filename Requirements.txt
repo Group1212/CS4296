@@ -1,0 +1,13 @@
+# PyTorch with CUDA 11.8
+--find-links https://download.pytorch.org/whl/cu118
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+transformers
+datasets
+peft
+bitsandbytes
+accelerate
+tensorboard
+unsloth
